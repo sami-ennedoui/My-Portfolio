@@ -75,8 +75,24 @@ const skills = {
           },
         },
         {
+          skillName: "The C programming language",
+          fontAwesomeClassname: "simple-icons:c",
+          style: {
+            backgroundColor: "transparent",
+            color: "#A8B9CC",
+          },
+        },
+        {
+          skillName: "GNU Bash",
+          fontAwesomeClassname: "simple-icons:gnubash",
+          style: {
+            backgroundColor: "transparent",
+            color: "#4EAA25",
+          },
+        },
+        {
           skillName: "Verilog",
-          imageSrc: "verilog.svg",
+          imageSrc: "verilog.png",
         },
       ],
     },

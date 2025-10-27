@@ -29,12 +29,12 @@ class Education extends Component {
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.text }}>
-                  Education
+                  Engineering Course
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
+                  I am currently studying electrical engineering at Toulouse INP
+                  - ENSEEIHT which a leading engineering school in france.
                 </h3>
-                <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>
           </Fade>

@@ -6,11 +6,15 @@ import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
+import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
+import ProjectsData from "../../shared/opensource/projects.json";
+import Button from "../../components/button/Button";
 import { competitiveSites } from "../../portfolio";
 import { certifications } from "../../portfolio";
 import "./EducationComponent.css";
+import "../projects/projects.css";
 import { Fade } from "react-reveal";
-
+import { greeting } from "../../portfolio.js";
 class Education extends Component {
   render() {
     const theme = this.props.theme;
@@ -39,9 +43,34 @@ class Education extends Component {
             </div>
           </Fade>
           <Educations theme={this.props.theme} />
-          {certifications.certifications.length > 0 ? (
-            <Certifications theme={this.props.theme} />
-          ) : null}
+          <div className="projects-heading-div">
+            <div className="projects-heading-text-div">
+              <h1
+                className="projects-heading-text"
+                style={{ color: theme.text }}
+              >
+                Projects
+              </h1>
+              <p
+                className="projects-header-detail-text"
+                style={{ color: theme.secondaryText }}
+              >
+                {/* You can add a subheading or leave blank */}
+              </p>
+            </div>
+          </div>
+          <div className="repo-cards-div-main">
+            {ProjectsData.data.map((repo) => (
+              <GithubRepoCard repo={repo} key={repo.id} theme={theme} />
+            ))}
+          </div>
+          <Button
+            text={"More Projects"}
+            className="project-button"
+            href={greeting.githubProfile}
+            newTab={true}
+            theme={theme}
+          />
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />

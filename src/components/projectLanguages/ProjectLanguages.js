@@ -23,11 +23,25 @@ class ProjectLanguages extends Component {
                     className="software-skill-inline-languages"
                     name={logo.skillName}
                   >
-                    <span
-                      className="iconify"
-                      data-icon={logo.iconifyClass}
-                      data-inline="false"
-                    ></span>
+                    {logo.imageSrc ? (
+                      <img
+                        src={logo.imageSrc}
+                        alt={logo.name}
+                        className="icon-img"
+                        style={{ width: "8px", height: "8px" }}
+                      />
+                    ) : (
+                      <span
+                        className="iconify"
+                        data-icon={logo.iconifyClass}
+                        data-inline="false"
+                        style={
+                          logo.iconifyClass === "simple-icons:amd"
+                            ? { width: "48px", height: "48px" }
+                            : { width: "32px", height: "32px" }
+                        }
+                      ></span>
+                    )}
                   </li>
                 </OverlayTrigger>
               );

@@ -37,21 +37,24 @@ const socialMediaLinks = [
   // gmail: "samiennedoui@proton.me"
   {
     name: "Github",
+    icontype: "fab",
     link: "https://github.com/sami-ennedoui",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    icontype: "fab",
+    link: "https://www.linkedin.com/in/sami-ennedoui-1347702a5/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "mail",
+    icontype: "fas",
     link: "mailto:samiennedoui@proton.me",
-    fontAwesomeIcon: "fa-gmail",
-    backgroudnColor: "#6D4AFF",
+    fontAwesomeIcon: "fa-envelope",
+    backgroundColor: "#912ed9",
   },
 ];
 

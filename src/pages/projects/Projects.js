@@ -14,7 +14,9 @@ import {
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./projects.css";
-import ProjectsImg from "./ProjectsImg";
+
+// CHANGED: import your new SVG component
+import MobilityImg from "./mobilityIMG";
 
 class Projects extends Component {
   render() {
@@ -26,74 +28,45 @@ class Projects extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <ProjectsImg theme={theme} />
+                {/* CHANGED: use MobilityImg instead of ProjectsImg */}
+                <MobilityImg theme={theme} />
               </div>
               <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {projectsHeader.title}
+                  {projectsHeader["title"]}
                 </h1>
+                <h3
+                  className="projects-heading-sub-text"
+                  style={{ color: theme.text }}
+                >
+                  {projectsHeader["subtitle"]}
+                </h3>
                 <p
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
                   {projectsHeader["description"]}
                 </p>
+                {projectsHeader["avatar_link"] && (
+                  <div className="projects-buttons-div">
+                    <Button
+                      text="More Projects"
+                      className="project-button"
+                      href={projectsHeader["avatar_link"]}
+                      newTab={true}
+                      theme={theme}
+                    />
+                  </div>
+                )}
               </div>
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
-        </div>
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href={greeting.githubProfile}
-          newTab={true}
-          theme={theme}
-        />
-
-        {/* Publications  */}
-        {publications.data.length > 0 ? (
-          <div className="basic-projects">
-            <Fade bottom duration={2000} distance="40px">
-              <div className="publications-heading-div">
-                <div className="publications-heading-text-div">
-                  <h1
-                    className="publications-heading-text"
-                    style={{ color: theme.text }}
-                  >
-                    {publicationsHeader.title}
-                  </h1>
-                  <p
-                    className="projects-header-detail-text subTitle"
-                    style={{ color: theme.secondaryText }}
-                  >
-                    {publicationsHeader["description"]}
-                  </p>
-                </div>
-              </div>
-            </Fade>
-          </div>
-        ) : null}
-
-        <div className="repo-cards-div-main">
-          {publications.data.map((pub) => {
-            return <PublicationCard pub={pub} theme={theme} />;
-          })}
-        </div>
-
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
+        <Footer theme={theme} />
+        <TopButton theme={theme} />
       </div>
     );
   }

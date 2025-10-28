@@ -1,10 +1,28 @@
 .contact-main {
   width: 100%;
 }
-
+.heading-text {
+  flex: 1;
+  align-items: center;
+}
 .basic-contact {
   margin-left: 5%;
   margin-right: 5%;
+}
+.heading-text-div {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 100px;
+}
+.heading-sub {
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  line-height: 1.8;
+  padding: 10px 15px;
 }
 
 .contact-heading-div {

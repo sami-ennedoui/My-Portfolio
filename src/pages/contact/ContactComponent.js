@@ -4,8 +4,9 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
+import HikingIMG from "./HikingIMG";
+import GamesIMG from "./GamesIMG";
+import FootIMG from "./FootIMG";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
@@ -25,33 +26,21 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
-                <img
-                  src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
-                />
+                <FootIMG />
               </div>
               <div className="contact-heading-text-div">
                 <h1
                   className="contact-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {ContactData["title"]}
+                  Football
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {ContactData["description"]}
+                  I love playing Football.
                 </p>
-                <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
-                  <Button
-                    text="See My Resume"
-                    newTab={true}
-                    href={greeting.resumeLink}
-                    theme={theme}
-                  />
-                </div>
               </div>
             </div>
           </Fade>
@@ -59,29 +48,21 @@ class Contact extends Component {
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
                 <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                  {blogSection["title"]}
+                  Hiking
                 </h1>
                 <p
                   className="blog-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {blogSection["subtitle"]}
+                  I go on hikes somtimes to clear my mind.
                 </p>
-                <div className="blogsite-btn-div">
-                  <Button
-                    text="Visit My Blogsite"
-                    newTab={true}
-                    href={blogSection.link}
-                    theme={theme}
-                  />
-                </div>
               </div>
               <div className="blog-heading-img-div">
                 {/* <img
 											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <BlogsImg theme={theme} />
+                <HikingIMG />
               </div>
             </div>
           </Fade>
@@ -92,20 +73,20 @@ class Contact extends Component {
 											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <AddressImg theme={theme} />
+                <GamesIMG />
               </div>
               <div className="address-heading-text-div">
                 <h1
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {addressSection["title"]}
+                  Games and Esports
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {addressSection["subtitle"]}
+                  I am also a fan of Esports and video games in general.
                 </p>
                 <h1
                   className="address-heading-text"
@@ -119,14 +100,6 @@ class Contact extends Component {
                 >
                   {phoneSection["subtitle"]}
                 </p>
-                <div className="address-btn-div">
-                  <Button
-                    text="Visit on Google Maps"
-                    newTab={true}
-                    href={addressSection.location_map_link}
-                    theme={theme}
-                  />
-                </div>
               </div>
             </div>
           </Fade>

@@ -19,6 +19,7 @@ class ExperienceCard extends Component {
               className="experience-card-logo"
               src={require(`../../assets/images/${experience["logo_path"]}`)}
               alt=""
+              style={{ backgroundColor: "#1b1e24" }}
             />
           </div>
         </Fade>

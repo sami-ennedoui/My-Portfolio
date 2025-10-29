@@ -10,17 +10,9 @@ class PullRequests extends Component {
     return (
       <div>
         <div className="pull-requests-header-div">
-          <Fade bottom duration={2000} distance="20px">
-            <h1 className="pull-requests-header" style={{ color: theme.text }}>
-              Pull Requests
-            </h1>
-          </Fade>
+          <Fade bottom duration={2000} distance="20px"></Fade>
         </div>
-        <div className="pull-request-body-div">
-          {pullRequestsData["data"].map((pullRequest) => {
-            return <PullRequestCard pullRequest={pullRequest} />;
-          })}
-        </div>
+        <div className="pull-request-body-div"></div>
       </div>
     );
   }

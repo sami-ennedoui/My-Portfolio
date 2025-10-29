@@ -62,7 +62,7 @@ const skills = {
   data: [
     {
       title: "Programming",
-      fileName: "DataScienceImg",
+      fileName: "CodeIMG",
       skills: [
         "⚡ Building small-scale projects using Bash and python scripting",
         "⚡ Learning to program using low level languages.",
@@ -101,7 +101,7 @@ const skills = {
     },
     {
       title: "Hardware-Software Integration",
-      fileName: "FullStackImg",
+      fileName: "SoftwareIMG",
       skills: [
         "⚡ Using Vivado for FPGA design including writing Verilog modules, creating testbenches, and running simulations to validate circuit behavior.",
         "⚡ Learning how to integrate simple firmware with FPGA configurations for embedded system projects.",
@@ -256,7 +256,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "me.jpg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },

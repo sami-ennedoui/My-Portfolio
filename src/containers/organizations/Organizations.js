@@ -12,11 +12,10 @@ class Organizations extends Component {
         <div className="organizations-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="organizations-header" style={{ color: theme.text }}>
-              Contributed Organizations
+              CSR/Civic Engagement
             </h1>
           </Fade>
         </div>
-        <OrganizationList logos={OrganizationsData["data"]} />
       </div>
     );
   }

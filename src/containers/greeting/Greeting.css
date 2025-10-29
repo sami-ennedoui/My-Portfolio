@@ -1,3 +1,8 @@
+.contact-heading-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .main {
   width: 90%;
   padding: 20px 10px;

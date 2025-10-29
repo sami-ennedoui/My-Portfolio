@@ -2,10 +2,9 @@ import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
-
+import { greeting, contactPageData } from "../../portfolio.js";
+const ContactData = contactPageData.contactSection;
 export default function Greeting(props) {
   const theme = props.theme;
   return (
@@ -34,22 +33,17 @@ export default function Greeting(props) {
                   text="⭐ Star Me On Github"
                   newTab={true}
                   href={greeting.portfolio_repository}
-                  theme={theme}
                   className="portfolio-repo-btn"
+                  theme={theme}
                 />
               </div>
-              {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
             </div>
           </div>
-          <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assets/images/feelingProud.svg")}
-						></img> */}
-            <FeelingProud theme={theme} />
+          <div className="contact-heading-img-div">
+            <img
+              src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
+              alt=""
+            />
           </div>
         </div>
       </div>

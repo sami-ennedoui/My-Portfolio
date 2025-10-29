@@ -10,17 +10,9 @@ class Issues extends Component {
     return (
       <div>
         <div className="issues-header-div">
-          <Fade bottom duration={2000} distance="20px">
-            <h1 className="issues-header" style={{ color: theme.text }}>
-              Issues
-            </h1>
-          </Fade>
+          <Fade bottom duration={2000} distance="20px"></Fade>
         </div>
-        <div className="issues-body-div">
-          {issuesData["data"].map((issue) => {
-            return <IssueCard issue={issue} />;
-          })}
-        </div>
+        <div className="issues-body-div"></div>
       </div>
     );
   }

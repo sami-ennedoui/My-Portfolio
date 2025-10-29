@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Sami Ennedoui",
   logo_name: "Samiennedoui",
-  nickname: "sami-ennedoui",
+  nickname: "",
   subTitle:
     " Third year electrical engineering student, passionate about electronics and embedded software.",
   resumeLink:

@@ -3,6 +3,10 @@
   align-items: center;
   justify-content: center;
 }
+.elevator-pitch-btn {
+  display: flex;
+  align-items: center;
+}
 .main {
   width: 90%;
   padding: 20px 10px;

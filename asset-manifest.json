@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cb272613.css",
-    "main.js": "/static/js/main.0b85bfa6.js",
+    "main.js": "/static/js/main.72e79295.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
@@ -63,12 +63,12 @@
     "static/media/cloud_infrastructure.svg": "/static/media/cloud_infrastructure.20b580f8784fe74e6e38.svg",
     "static/media/blogs_image.svg": "/static/media/blogs_image.08bcc48d9a3783389c93.svg",
     "static/media/data_science.svg": "/static/media/data_science.9dcadb158ebe250997f6.svg",
-    "static/media/CodeIMG.svg": "/static/media/CodeIMG.7a20bd96a00cb03dbb87.svg",
+    "static/media/CodeIMG.svg": "/static/media/CodeIMG.5109b92eaaec60ad5aec.svg",
     "static/media/fullstack.svg": "/static/media/fullstack.32a1ffc74848a2ed7dbf.svg",
     "static/media/education.svg": "/static/media/education.d5cc42f042227db12468.svg",
-    "static/media/verilog.svg": "/static/media/verilog.f0b0bf4ff123f1196897.svg",
+    "static/media/verilog.svg": "/static/media/verilog.a44c5502c89ea1aa477e.svg",
     "index.html": "/index.html",
-    "static/media/assembly.svg": "/static/media/assembly.7f9619578dfed3a2755f.svg",
+    "static/media/assembly.svg": "/static/media/assembly.7e35ca6fd5baf14a7f99.svg",
     "static/media/gnubash.svg": "/static/media/gnubash.ed132fce1f434aa2bba2.svg",
     "static/media/googleAssistant.svg": "/static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/github.svg": "/static/media/github.3b21c250a99986431958.svg",
@@ -76,10 +76,10 @@
     "static/media/c.svg": "/static/media/c.4b3cff5151588e79b8b1.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.cb272613.css.map": "/static/css/main.cb272613.css.map",
-    "main.0b85bfa6.js.map": "/static/js/main.0b85bfa6.js.map"
+    "main.72e79295.js.map": "/static/js/main.72e79295.js.map"
   },
   "entrypoints": [
     "static/css/main.cb272613.css",
-    "static/js/main.0b85bfa6.js"
+    "static/js/main.72e79295.js"
   ]
 }

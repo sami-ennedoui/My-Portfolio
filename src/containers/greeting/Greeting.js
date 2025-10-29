@@ -33,7 +33,7 @@ export default function Greeting(props) {
                   text="My CV in english "
                   newTab={true}
                   href={
-                    "https://drive.google.com/file/d/1SkaZfELr1ZTXXJNYTbpUTa4aQqmr1P1K/view?usp=sharing"
+                    "https://drive.google.com/file/d/1uKpiTYyeNYVCaUv0xgAXIFKSCf5QrJxE/view?usp=sharing"
                   }
                   className="cve-btn"
                   theme={theme}
@@ -42,7 +42,7 @@ export default function Greeting(props) {
                   text="My CV in french "
                   newTab={true}
                   href={
-                    "https://drive.google.com/file/d/1qNYHHtTrl_sxr3dEzvkrtfkf3AdJWPXB/view?usp=sharing"
+                    "https://drive.google.com/file/d/1ywkl9oe3XHiux6DoqdL92MW52zLKPbYV/view?usp=sharing"
                   }
                   className="cvf-btn"
                   theme={theme}

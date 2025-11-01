@@ -156,9 +156,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Carrer Developpement",
-  subtitle: "Work, Internships and Volunteerships",
+  subtitle: "Clubs, internships and summer jobs",
   description:
-    "I am very interested in the ways hardware and software intarct together and would like to explore the various paths that can lead to me working in said field.",
+    "I am interested in the ways hardware and software intarct together and I am aiming to understand this field a little better everyday through personnal projects and my cooperation with members of the clubs at my school.",
   header_image_path: "experience.svg",
   sections: [
     {

@@ -5,5 +5,5 @@ Welcome to My Portfolio
     This is where I share my personal projects and all the relevant information for you to see.
 </h3>
 <h4 align="center">
-    The template for parts of this website has been provided by ashutosh1919 in his masterportfolio repo.
+    The templuor parts of this website has been provided by ashutosh1919 in his masterportfolio repo.
 </h4>

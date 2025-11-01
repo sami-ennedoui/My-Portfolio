@@ -13,7 +13,7 @@ import {
   publications,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
-import "./projects.css";
+import "./Projects.css";
 
 // CHANGED: import your new SVG component
 import MobilityImg from "./mobilityIMG";

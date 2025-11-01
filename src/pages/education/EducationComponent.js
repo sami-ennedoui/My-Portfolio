@@ -12,7 +12,7 @@ import Button from "../../components/button/Button";
 import { competitiveSites } from "../../portfolio";
 import { certifications } from "../../portfolio";
 import "./EducationComponent.css";
-import "../projects/projects.css";
+import "../projects/Projects.css";
 import { Fade } from "react-reveal";
 import { greeting } from "../../portfolio.js";
 class Education extends Component {
@@ -37,7 +37,7 @@ class Education extends Component {
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   I am currently studying electrical engineering at Toulouse INP
-                  - ENSEEIHT which a leading engineering school in france.
+                  - ENSEEIHT which is a leading engineering school in france.
                 </h3>
               </div>
             </div>

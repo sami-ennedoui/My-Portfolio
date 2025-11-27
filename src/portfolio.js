@@ -158,7 +158,7 @@ const experience = {
   title: "Carrer Developpement",
   subtitle: "Clubs, internships and summer jobs",
   description:
-    "I am interested in the ways hardware and software intarct together and I am aiming to understand this field a little better everyday through personnal projects and my cooperation with members of the clubs at my school.",
+    "I am interested in the ways hardware and software interact together and I am aiming to understand this field a little better everyday through personnal projects and my cooperation with members of the clubs at my school.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -184,7 +184,7 @@ const experience = {
           duration: "October 2025 - Present",
           location: "Toulouse, France",
           description:
-            "I am working alongside other fellow engineering students in the data and electronics departement to help create a racing car for the Formula student France 2026.",
+            "I am working alongside other fellow engineering students in the data departement to help create a racing car for the Formula student France 2026.",
           color: "#0879bf",
         },
       ],

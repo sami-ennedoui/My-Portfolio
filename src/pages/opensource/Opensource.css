@@ -107,7 +107,6 @@
   text-align: center;
   margin-bottom: 10px;
 }
-
 .contact-header-detail-text {
   font-size: 20px;
   line-height: 30px;
@@ -116,8 +115,48 @@
   margin-right: 20px;
   font-family: "Google Sans Medium";
 }
+.big-project-div {
+  display: flex;
+  margin-top: 20px;
+}
 
-.blog-header-detail-text {
+.big-project-text-div,
+.big-project-img-div {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.big-project-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.big-project-img-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.big-project-heading {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.big-project-subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.blog-header-text-div {
   font-size: 20px;
   line-height: 30px;
   margin-top: 0px;

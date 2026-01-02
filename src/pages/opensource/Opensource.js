@@ -8,6 +8,7 @@ import { Fade } from "react-reveal";
 import InternationalIMG from "./InternationalIMG";
 import ProcesIMG from "./ProcesIMG";
 import FresqueIMG from "./FresqueIMG";
+import ProjectIMG from "./ProjectIMG";
 import "./Opensource.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
@@ -106,6 +107,31 @@ class Opensource extends Component {
                 >
                   {phoneSection["subtitle"]}
                 </p>
+              </div>
+            </div>
+            <div className="big-project-div">
+              <div className="big-project-text-div">
+                <h1 className="big-project-heading">Learning Gate</h1>
+                <p
+                  className="project-heading-subtitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  Learning Gate is my Kiwix-based civic project that packages
+                  educational content like Wikipedia and textbooks into offline
+                  libraries for communities without reliable internet.
+                </p>
+                <div className="project-button">
+                  <Button
+                    text="The project's infographic"
+                    newTab={true}
+                    href={"https://churros.inpt.fr"}
+                    className="infographic-button"
+                    theme={theme}
+                  />
+                </div>
+              </div>
+              <div className="project-img-div">
+                <ProjectIMG />
               </div>
             </div>
           </Fade>

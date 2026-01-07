@@ -124,7 +124,9 @@ class Opensource extends Component {
                   <Button
                     text="The project's infographic"
                     newTab={true}
-                    href={"https://churros.inpt.fr"}
+                    href={
+                      "https://drive.google.com/file/d/1PtJjB84uKmc_4T5tsjMLoHjecSuxFIST/view?usp=sharing"
+                    }
                     className="infographic-button"
                     theme={theme}
                   />

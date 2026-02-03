@@ -2,19 +2,14 @@
   "data": [
     {
       "id": "R_kgDOQKUUjA",
-      "name": "Digital clock",
-      "createdAt": "October 2025",
-      "url": "https://github.com/sami-ennedoui/digital-clock",
-      "description": "digital clock desgin using Vivado design suite and Verilog.",
-      "isFork": false,
+      "name": "Chip8 interpreter in the C language",
+      "createdAt": "January 2026",
+      "url": "https://github.com/sami-ennedoui/chip8-c",
+      "description": "Inspired by classes we took on computer architecture.",
       "languages": [
         {
-          "name": "Verilog",
-          "imageSrc": "verilog.svg"
-        },
-        {
-          "name": "AMD Vivado",
-          "iconifyClass": "simple-icons:amd"
+          "name": "The C programming language",
+          "iconifyClass": "devicon:c"
         }
       ]
     },
@@ -23,7 +18,7 @@
       "name": "FIR filter",
       "createdAt": "October 2025",
       "url": "https://github.com/sami-ennedoui/FIR-filter",
-      "description": "Tap based architecture ( buffer, multipliers, accumulator).",
+      "description": "A FIR ( Finite Impulse Response) filter is used for various applications.",
       "isFork": false,
       "languages": [
         {
@@ -31,8 +26,8 @@
           "iconifyClass": "simple-icons:amd"
         },
         {
-          "name": "Verilog",
-          "imageSrc": "verilog.svg"
+          "name": "VHDL",
+          "iconifyClass": "file-icons:vhdl"
         }
       ]
     },

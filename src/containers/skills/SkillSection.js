@@ -7,6 +7,7 @@ import SoftwareIMG from "./SoftwareIMG";
 import CodeIMG from "./CodeIMG";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import fixingIMG from "./fixingIMG";
 
 function GetSkillSvg(props) {
   if (props.fileName === "CodeIMG") return <CodeIMG theme={props.theme} />;
@@ -14,6 +15,7 @@ function GetSkillSvg(props) {
     return <SoftwareIMG theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
+  else if (props.fileName === "fixingIMG") return <fixingIMG />;
   return <DesignImg theme={props.theme} />;
 }
 

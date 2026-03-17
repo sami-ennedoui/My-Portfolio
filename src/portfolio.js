@@ -23,13 +23,13 @@ const greeting = {
   logo_name: "Samiennedoui",
   nickname: "",
   subTitle:
-    " Third year electrical engineering student, passionate about electronics and embedded software.",
+    "Entering the ModIA dual-degree (Math, Data, AI) this fall. I am looking for an apprenticeship starting September 2026 to apply my programming skills (Python, C) and mathematical background to real-world problems.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/sami-ennedoui/My-Portfolio",
   githubProfile: "https://github.com/sami-ennedoui",
 };
-
+// to do : update CV links
 const socialMediaLinks = [
   /* Your Social Media Link */
   // github: "https://github.com/sami-ennedoui",
@@ -61,12 +61,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Programming",
+      title: "Scientific programming in Python",
       fileName: "CodeIMG",
       skills: [
-        "⚡ Building small-scale projects using Bash and python scripting",
-        "⚡ Learning to program using low level languages.",
-        "⚡ Basics in Hardware Description Languages",
+        "Applying math to code: I translate mathematical concepts into functional Python scripts, focusing on numerical analysis and data processing",
+        "Algorithm implementation: I have practical experience coding and benchmarking algorithms, such as image processing and compression methods (Floyd-Steinberg, Hilbert curves). ",
+        "Scientific libraries: I am comfortable using tools like NumPy and SciPy, laying the groundwork for my upcoming specialization in Machine Learning",
       ],
       softwareSkills: [
         {
@@ -77,6 +77,17 @@ const skills = {
             color: "#3776AB",
           },
         },
+      ],
+    },
+    {
+      title: "Software Development & Systems (C, Bash)",
+      fileName: "SoftwareIMG",
+      skills: [
+        "Low-level programming: I write C code to better understand memory management, CPU cycles, and fundamental computer architecture.",
+        "Building from scratch: I develop complex logic applications, such as a fully functional retro 8-bit CHIP-8 emulator.",
+        "Workflow automation: I use Linux environments and write Bash scripts to automate routine tasks and improve my development workflow.",
+      ],
+      softwareSkills: [
         {
           skillName: "The C programming language",
           fontAwesomeClassname: "simple-icons:c",
@@ -93,21 +104,7 @@ const skills = {
             color: "#4EAA25",
           },
         },
-        {
-          skillName: "Verilog",
-          imageSrc: "verilog.png",
-        },
       ],
-    },
-    {
-      title: "Hardware-Software Integration",
-      fileName: "SoftwareIMG",
-      skills: [
-        "⚡ Using Vivado for FPGA design including writing Verilog modules, creating testbenches, and running simulations to validate circuit behavior.",
-        "⚡ Learning how to integrate simple firmware with FPGA configurations for embedded system projects.",
-        "⚡ Continuously building knowledge by experimenting with embedded systems concepts and tools.",
-      ],
-      softwareSkills: [],
     },
   ],
 };

@@ -33,7 +33,7 @@ export default function Greeting(props) {
                   text="My CV in french "
                   newTab={true}
                   href={
-                    "https://drive.google.com/file/d/1z2gIOQo3rLutNsz_VU6A5P45I6FpoX_i/view?usp=sharing"
+                    "https://drive.google.com/file/d/1coX6gJMcYCs04JoT84R9Lro4AxwY3ODg/view?usp=sharing"
                   }
                   className="cve-btn"
                   theme={theme}
@@ -42,20 +42,9 @@ export default function Greeting(props) {
                   text="My CV in english "
                   newTab={true}
                   href={
-                    "https://drive.google.com/file/d/1B8QtRTPAvA6eBgHmKrpalZzx1TdyD22j/view?usp=sharing"
+                    "https://drive.google.com/file/d/1wSxctbUeaARMz2zgsmz6fkyVSP_ESPH-/view?usp=sharing"
                   }
                   className="cvf-btn"
-                  theme={theme}
-                />
-              </div>
-              <div className="elevator-pitch-btn">
-                <Button
-                  text=" 🛗 My elevator pitch"
-                  newTab={true}
-                  href={
-                    "https://drive.google.com/file/d/1BS6pu_0p7us9YINA7HFZIKzwBHkJs_Cn/view?usp=sharing"
-                  }
-                  className="elv-ptch"
                   theme={theme}
                 />
               </div>

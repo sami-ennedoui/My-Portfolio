@@ -144,15 +144,15 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Toulouse INP - ENSEEIHT",
-      subtitle:
-        " Electronics Electrical Energy and Automation (3EA) departement ",
+      title: "Toulouse INP - ENSEEIHT & INSA Toulouse",
+      subtitle: "Engineering Degree — Transitioning to ModIA (Data & AI)",
       logo_path: "n7logo.png",
       alt_name: "INPT ENSEEIHT",
-      duration: "2025 - now",
+      duration: "2025 - 2028",
       descriptions: [
-        "⚡ I am currently studying the basics of electrical engineering.",
-        "⚡ I am also working on various projects on my own to gain more practical knowledge in the fields that interest me the most.",
+        "Currently (1st Year): Electrical Engineering student at ENSEEIHT, with a strong focus on applied mathematics, low-level programming (C), and scientific Python.",
+        "Next Fall (Sept 2026): Officially admitted to the ModIA Dual-Degree program, specializing in Machine Learning, Statistical Modeling, and Scientific Computing.",
+        "Looking for: A 2 and a half year apprenticeship (alternance) in Data / AI / Software starting in September 2026 to complement my upcoming ModIA curriculum.",
       ],
       website_link: "https://www.enseeiht.fr/",
     },
@@ -163,9 +163,9 @@ const degrees = {
       alt_name: "CPGE Centre - Tétouan",
       duration: "2023 - 2025",
       descriptions: [
-        "⚡ Acquired deep knowledge and fundementals in both maths and physics.",
-        "⚡ Learned to work efficiently and flourish in stressful environemnts. ",
-        "⚡ Acquired basic knowledge in the Python programming language which I later applied in my final Project to combine my knowledge in math and programming.",
+        " Acquired deep knowledge and fundementals in both maths and physics.",
+        " Learned to work efficiently and flourish in stressful environemnts. ",
+        " Acquired knowledge in the Python programming language which I later applied in my final Project to combine my knowledge in math and programming.",
       ],
       website_link:
         "https://www.linkedin.com/school/cpge-tetouan/?originalSubdomain=fr",

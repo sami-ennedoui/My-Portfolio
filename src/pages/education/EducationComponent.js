@@ -36,8 +36,11 @@ class Education extends Component {
                   Engineering Course
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  I am currently studying electrical engineering at Toulouse INP
-                  - ENSEEIHT which is a leading engineering school in france.
+                  I am currently studying Electrical Engineering at Toulouse INP
+                  - ENSEEIHT, a leading French engineering school. Thanks to my
+                  strong interest in applied mathematics and programming, I have
+                  been admitted to the highly selective ModIA Dual-Degree
+                  program (Modeling, Data, and AI) starting in September 2026.
                 </h3>
               </div>
             </div>

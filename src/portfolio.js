@@ -106,6 +106,33 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Embedded Systems & Team Collaboration",
+      filename: "fixingIMG",
+      skills: [
+        "Hardware-software interaction: My Electrical Engineering background gives me a solid understanding of how software interacts with physical sensors and microcontrollers.",
+        "Hands-on prototyping: I am learning data acquisition and monitoring on NXP boards through my work on a Battery Management System (BMS).",
+        "Team engineering: I actively collaborate on technical projects within the N7 Racing team, communicating effectively to integrate different system components.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "The C programming language",
+          fontAwesomeClassname: "simple-icons:c",
+          style: {
+            backgroundColor: "transparent",
+            color: "#A8B9CC",
+          },
+        },
+        {
+          skillName: "GNU Bash",
+          fontAwesomeClassname: "simple-icons:gnubash",
+          style: {
+            backgroundColor: "transparent",
+            color: "#4EAA25",
+          },
+        },
+      ],
+    },
   ],
 };
 

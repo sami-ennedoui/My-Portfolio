@@ -4,6 +4,8 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { Fade } from "react-reveal";
 import { greeting, contactPageData } from "../../portfolio.js";
+import MYCV_fr from "../../assets/images/CV_Ennedoui_Sami.pdf";
+import MYCV_en from "../../assets/images/CV_ENNEDOUI_SAMI_en.pdf";
 const ContactData = contactPageData.contactSection;
 export default function Greeting(props) {
   const theme = props.theme;
@@ -32,18 +34,14 @@ export default function Greeting(props) {
                 <Button
                   text="My CV in french "
                   newTab={true}
-                  href={
-                    "https://drive.google.com/file/d/1coX6gJMcYCs04JoT84R9Lro4AxwY3ODg/view?usp=sharing"
-                  }
+                  href={MYCV_en}
                   className="cve-btn"
                   theme={theme}
                 />
                 <Button
                   text="My CV in english "
                   newTab={true}
-                  href={
-                    "https://drive.google.com/file/d/1wSxctbUeaARMz2zgsmz6fkyVSP_ESPH-/view?usp=sharing"
-                  }
+                  href={MYCV_fr}
                   className="cvf-btn"
                   theme={theme}
                 />

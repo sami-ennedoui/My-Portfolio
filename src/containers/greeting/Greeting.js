@@ -34,14 +34,14 @@ export default function Greeting(props) {
                 <Button
                   text="My CV in french "
                   newTab={true}
-                  href={MYCV_en}
+                  href={MYCV_fr}
                   className="cve-btn"
                   theme={theme}
                 />
                 <Button
                   text="My CV in english "
                   newTab={true}
-                  href={MYCV_fr}
+                  href={MYCV_en}
                   className="cvf-btn"
                   theme={theme}
                 />

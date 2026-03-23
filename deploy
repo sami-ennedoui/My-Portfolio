@@ -1,0 +1,3 @@
+#!bin/bash
+rm -rf ../sami-ennedoui.github.io/* 
+cp -r build/* ../sami-ennedoui.github.io

@@ -9,11 +9,11 @@ const settings = {
 const seo = {
   title: "Sami Ennedoui",
   description:
-    " A third year electrical engineering student, passionate about electronics and embedded software.",
+    "ENSEEIHT engineering student entering the ModIA dual-degree (Mathematics, Data & AI). Looking for a Data / AI apprenticeship from September 2026.",
   og: {
     title: "Sami Ennedoui Portfolio",
     type: "website",
-    url: "http://samiennedoui.com/",
+    url: "https://sami-ennedoui.github.io/",
   },
 };
 
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Samiennedoui",
   nickname: "",
   subTitle:
-    "Entering the ModIA dual-degree (Math, Data, AI) this fall. I am looking for an apprenticeship starting September 2026 to apply my programming skills (Python, C) and mathematical background to real-world problems.",
+    "ENSEEIHT engineering student entering the ModIA dual-degree (Mathematics, Data & AI) this fall. I am looking for a Data / AI / Software apprenticeship from September 2026, where I can turn a strong mathematical and programming background (Python, C) into real-world machine-learning systems.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/sami-ennedoui/My-Portfolio",
@@ -152,7 +152,7 @@ const degrees = {
       descriptions: [
         "Currently (1st Year): Electrical Engineering student at ENSEEIHT, with a strong focus on applied mathematics, low-level programming (C), and scientific Python.",
         "Next Fall (Sept 2026): Officially admitted to the ModIA Dual-Degree program, specializing in Machine Learning, Statistical Modeling, and Scientific Computing.",
-        "Looking for: A 2 and a half year apprenticeship (alternance) in Data / AI / Software starting in September 2026 to complement my upcoming ModIA curriculum.",
+        "Looking for: A 2-to-3-year apprenticeship (alternance) in Data / AI / Software starting in September 2026 to complement my upcoming ModIA curriculum.",
       ],
       website_link: "https://www.enseeiht.fr/",
     },
@@ -174,7 +174,17 @@ const degrees = {
 };
 
 const certifications = {
-  certifications: [],
+  certifications: [
+    {
+      title: "Gestion de Projet",
+      subtitle: "MOOC — Centrale Lille (Rémi Bachelet)",
+      logo_path: "gdp_mooc_logo.svg",
+      certificate_link:
+        "https://moocgdp.gestiondeprojet.pm/certificates/c9fed50521274dde9ddb8d4bdb34486e",
+      alt_name: "Centrale Lille",
+      color_code: "#1A5276",
+    },
+  ],
 };
 
 // Experience Page
@@ -251,29 +261,7 @@ const publicationsHeader = {
 };
 
 const publications = {
-  data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
-    },
-  ],
+  data: [],
 };
 
 // Contact Page
@@ -282,25 +270,25 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "me.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I usually reply within a day. Happy to talk about Data, Machine Learning, embedded software, or an apprenticeship from September 2026.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://github.com/sami-ennedoui",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "Toulouse, France",
+    locality: "Toulouse",
+    country: "France",
+    region: "Occitanie",
+    postalCode: "",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.google.com/?q=Toulouse,France",
   },
   phoneSection: {
     title: "",

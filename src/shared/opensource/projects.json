@@ -1,6 +1,32 @@
 {
   "data": [
     {
+      "id": "battery-cycle-life",
+      "name": "Li-ion battery cycle-life prediction (Severson 2019 benchmark)",
+      "createdAt": "June 2026",
+      "url": "https://github.com/sami-ennedoui/battery-cycle-life",
+      "description": "End-to-end machine-learning pipeline predicting a Li-ion cell's lifetime from only its first 100 cycles, with a leakage-safe per-cell evaluation and an elastic-net / XGBoost comparison served live through a FastAPI endpoint (Docker + CI).",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "scikit-learn",
+          "iconifyClass": "simple-icons:scikitlearn"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos-docker-icon"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOQKUUjA",
       "name": "Chip8 interpreter in the C language",
       "createdAt": "January 2026",
@@ -10,24 +36,6 @@
         {
           "name": "The C programming language",
           "iconifyClass": "devicon:c"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOQKWE7Q",
-      "name": "FIR filter",
-      "createdAt": "October 2025",
-      "url": "https://github.com/sami-ennedoui/FIR-filter",
-      "description": "A FIR ( Finite Impulse Response) filter is used for various applications.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "AMD Vivado",
-          "iconifyClass": "simple-icons:amd"
-        },
-        {
-          "name": "VHDL",
-          "iconifyClass": "file-icons:vhdl"
         }
       ]
     },

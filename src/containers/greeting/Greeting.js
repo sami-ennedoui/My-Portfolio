@@ -31,7 +31,7 @@ export default function Greeting(props) {
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
                 <Button
-                  text="My CV — Data Science & IA"
+                  text="My CV"
                   newTab={true}
                   href={MYCV_ds}
                   className="cve-btn"

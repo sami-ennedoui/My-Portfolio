@@ -36,16 +36,17 @@ class Education extends Component {
                   Engineering Course
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  I am currently studying Electrical Engineering at Toulouse INP
-                  - ENSEEIHT, a leading French engineering school. Thanks to my
-                  strong interest in applied mathematics and programming, I have
-                  been admitted to the highly selective ModIA Dual-Degree
-                  program (Modeling, Data, and AI) starting in September 2026.
+                  Engineering student at Toulouse INP - ENSEEIHT, heading into
+                  the selective ModIA dual-degree (Modeling, Data &amp; AI), run
+                  with INSA Toulouse, from September 2026. My work spans applied
+                  mathematics, machine learning, and hands-on software and
+                  embedded systems.
                 </h3>
               </div>
             </div>
           </Fade>
           <Educations theme={this.props.theme} />
+          <Certifications theme={this.props.theme} />
           <div className="projects-heading-div">
             <div className="projects-heading-text-div">
               <h1

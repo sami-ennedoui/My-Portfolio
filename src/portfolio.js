@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Samiennedoui",
   nickname: "",
   subTitle:
-    "ENSEEIHT engineering student entering the ModIA dual-degree (Mathematics, Data & AI) this fall. I am looking for a Data / AI / Software apprenticeship from September 2026, where I can turn a strong mathematical and programming background (Python, C) into real-world machine-learning systems.",
+    "ENSEEIHT engineering student, entering the ModIA dual-degree (Mathematics, Data & AI) this fall. I like building things end to end — machine-learning pipelines, LLM-agent tooling, and embedded systems — and I'm looking for a Data / AI apprenticeship from September 2026.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/sami-ennedoui/My-Portfolio",

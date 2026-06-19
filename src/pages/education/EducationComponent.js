@@ -14,7 +14,7 @@ import { certifications } from "../../portfolio";
 import "./EducationComponent.css";
 import "../projects/Projects.css";
 import { Fade } from "react-reveal";
-import { greeting } from "../../portfolio.js";
+import { greeting, ui } from "../../portfolio.js";
 class Education extends Component {
   render() {
     const theme = this.props.theme;
@@ -33,14 +33,10 @@ class Education extends Component {
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.text }}>
-                  Engineering Course
+                  {ui.eduCourseHeading}
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Engineering student at Toulouse INP - ENSEEIHT, heading into
-                  the selective ModIA dual-degree (Modeling, Data &amp; AI), run
-                  with INSA Toulouse, from September 2026. My work spans applied
-                  mathematics, machine learning, and hands-on software and
-                  embedded systems.
+                  {ui.eduCourseSub}
                 </h3>
               </div>
             </div>
@@ -53,7 +49,7 @@ class Education extends Component {
                 className="projects-heading-text"
                 style={{ color: theme.text }}
               >
-                Projects
+                {ui.eduProjectsHeading}
               </h1>
               <p
                 className="projects-header-detail-text"
@@ -69,7 +65,7 @@ class Education extends Component {
             ))}
           </div>
           <Button
-            text={"More Projects"}
+            text={ui.moreProjects}
             className="project-button"
             href={greeting.githubProfile}
             newTab={true}

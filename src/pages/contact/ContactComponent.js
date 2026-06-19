@@ -9,7 +9,7 @@ import GamesIMG from "./GamesIMG";
 import FootIMG from "./FootIMG";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { greeting, contactPageData, ui } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -33,13 +33,13 @@ class Contact extends Component {
                   className="contact-heading-text"
                   style={{ color: theme.text }}
                 >
-                  Football
+                  {ui.contact.football}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  I love playing Football.
+                  {ui.contact.footballDesc}
                 </p>
               </div>
             </div>
@@ -48,13 +48,13 @@ class Contact extends Component {
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
                 <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                  Hiking
+                  {ui.contact.hiking}
                 </h1>
                 <p
                   className="blog-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  I go on hikes somtimes to clear my mind.
+                  {ui.contact.hikingDesc}
                 </p>
               </div>
               <div className="blog-heading-img-div">
@@ -80,13 +80,13 @@ class Contact extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  Games and Esports
+                  {ui.contact.games}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  I am also a fan of Esports and video games in general.
+                  {ui.contact.gamesDesc}
                 </p>
                 <h1
                   className="address-heading-text"

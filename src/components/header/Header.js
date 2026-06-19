@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { greeting, settings, ui } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import LanguageToggle from "../languageToggle/LanguageToggle";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -45,7 +46,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Home
+                  {ui.nav.home}
                 </NavLink>
               </li>
               <li>
@@ -57,7 +58,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Engineering Course
+                  {ui.nav.education}
                 </NavLink>
               </li>
               <li>
@@ -69,7 +70,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Careers
+                  {ui.nav.experience}
                 </NavLink>
               </li>
               <li>
@@ -81,7 +82,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  International Mobility
+                  {ui.nav.projects}
                 </NavLink>
               </li>
               <li>
@@ -93,7 +94,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  CSR/Civic Engagement
+                  {ui.nav.opensource}
                 </NavLink>
               </li>
               <li>
@@ -105,8 +106,11 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Other activities
+                  {ui.nav.contact}
                 </NavLink>
+              </li>
+              <li className="lang-toggle-li">
+                <LanguageToggle theme={theme} />
               </li>
             </ul>
           </header>

@@ -1,0 +1,24 @@
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  border-radius: 18px;
+  padding: 3px;
+}
+
+.lang-btn {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 5px 9px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.lang-btn:focus {
+  outline: none;
+}

@@ -3,7 +3,7 @@ import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { Fade } from "react-reveal";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { greeting, contactPageData, ui } from "../../portfolio.js";
 import MYCV_ds from "../../assets/images/CV_Ennedoui_Sami_DataScience.pdf";
 const ContactData = contactPageData.contactSection;
 export default function Greeting(props) {
@@ -31,7 +31,7 @@ export default function Greeting(props) {
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
                 <Button
-                  text="My CV"
+                  text={ui.myCV}
                   newTab={true}
                   href={MYCV_ds}
                   className="cve-btn"

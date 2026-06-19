@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Samiennedoui",
   nickname: "",
   subTitle:
-    "ENSEEIHT engineering student, entering the ModIA dual-degree (Mathematics, Data & AI) this fall. I like building things end to end — machine-learning pipelines, LLM-agent tooling, and embedded systems — and I'm looking for a Data / AI apprenticeship from September 2026.",
+    "ENSEEIHT engineering student, entering the ModIA dual-degree (Mathematics, Data & AI) this fall. I like building things end to end: machine-learning pipelines, LLM-agent tooling, and embedded systems. I'm looking for a Data / AI apprenticeship from September 2026.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/sami-ennedoui/My-Portfolio",
@@ -61,12 +61,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Scientific programming in Python",
+      title: "Machine Learning & Data",
       fileName: "CodeIMG",
       skills: [
-        "Applying math to code: I translate mathematical concepts into functional Python scripts, focusing on numerical analysis and data processing",
-        "Algorithm implementation: I have practical experience coding and benchmarking algorithms, such as image processing and compression methods (Floyd-Steinberg, Hilbert curves). ",
-        "Scientific libraries: I am comfortable using tools like NumPy and SciPy, laying the groundwork for my upcoming specialization in Machine Learning",
+        "I design and build end-to-end machine-learning pipelines: feature engineering, leakage-safe evaluation, and model comparison (linear models versus gradient boosting).",
+        "I turn models into services, exposing predictions through a FastAPI endpoint, containerised with Docker and wired to CI.",
+        "I am comfortable across the scientific Python stack: NumPy, SciPy, pandas, scikit-learn, and Matplotlib.",
       ],
       softwareSkills: [
         {
@@ -107,12 +107,12 @@ const skills = {
       ],
     },
     {
-      title: "Embedded Systems & Team Collaboration",
+      title: "LLM Tooling & Embedded Systems",
       filename: "fixingIMG",
       skills: [
-        "Hardware-software interaction: My Electrical Engineering background gives me a solid understanding of how software interacts with physical sensors and microcontrollers.",
-        "Hands-on prototyping: I am learning data acquisition and monitoring on NXP boards through my work on a Battery Management System (BMS).",
-        "Team engineering: I actively collaborate on technical projects within the N7 Racing team, communicating effectively to integrate different system components.",
+        "LLM-agent tooling: I build schema-constrained pipelines that turn messy documents (PDF datasheets) into validated JSON and generated C headers.",
+        "Embedded systems: hands-on Battery Management System work on NXP boards (firmware init, CAN, Capella modeling) within the N7 Racing Team.",
+        "I collaborate across multidisciplinary engineering teams and integrate work between sub-poles.",
       ],
       softwareSkills: [
         {
@@ -145,7 +145,7 @@ const degrees = {
   degrees: [
     {
       title: "Toulouse INP - ENSEEIHT & INSA Toulouse",
-      subtitle: "Engineering Degree — Transitioning to ModIA (Data & AI)",
+      subtitle: "Engineering Degree, transitioning to ModIA (Data & AI)",
       logo_path: "n7logo.png",
       alt_name: "INPT ENSEEIHT",
       duration: "2025 - 2028",
@@ -177,7 +177,7 @@ const certifications = {
   certifications: [
     {
       title: "Gestion de Projet",
-      subtitle: "MOOC — Centrale Lille (Rémi Bachelet)",
+      subtitle: "MOOC, Centrale Lille (Rémi Bachelet)",
       logo_path: "gdp_mooc_logo.svg",
       certificate_link:
         "https://moocgdp.gestiondeprojet.pm/certificates/c9fed50521274dde9ddb8d4bdb34486e",
